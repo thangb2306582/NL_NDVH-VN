@@ -1,0 +1,18 @@
+# Python environments and caches
+backend/venv/
+**/__pycache__/
+*.py[cod]
+
+# Image datasets and uploaded files
+backend/dataset/
+backend/uploads/
+
+# Trained model artifacts
+backend/*.keras
+backend/model_results.json
+backend/evaluation_*.json
+backend/confusion_matrix_*.png
+backend/history_*.png
+
+# Local prediction history
+backend/history_fallback.json

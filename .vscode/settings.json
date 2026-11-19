@@ -1,0 +1,12 @@
+{
+  "python-envs.defaultEnvManager": "ms-python.python:system",
+  "liveServer.settings.port": 5501,
+  "liveServer.settings.ignoreFiles": [
+    ".vscode/**",
+    "**/backend/**",
+    "**/*.keras",
+    "**/*.pyc",
+    "**/__pycache__/**"
+  ],
+  "liveServer.settings.root": "/frontend"
+}
